@@ -40,7 +40,7 @@
          }
       }
    },
-   "release_status" : "testing",
+   "release_status" : "stable",
    "resources" : {
       "bugtracker" : {
          "web" : "https://github.com/oneandoneis2/App-Goto/issues"
@@ -52,6 +52,6 @@
          "web" : "https://github.com/oneandoneis2/App-Goto"
       }
    },
-   "version" : "0.01"
+   "version" : "0.02"
 }
 
