@@ -1,0 +1,23 @@
+---
+abstract: 'Utility for accessing remote servers via SSH'
+author:
+  - 'Dominic Humphries <dominic@oneandoneis2.com>'
+build_requires:
+  Module::Build: 0.3601
+  Test::More: 0.88
+configure_requires:
+  Module::Build: 0.3601
+dynamic_config: 0
+generated_by: 'Dist::Milla version v0.9.1, Dist::Zilla version 4.300031, CPAN::Meta::Converter version 2.120921'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: App-Goto
+requires:
+  perl: 5.012000
+resources:
+  bugtracker: https://github.com/oneandoneis2/App-Goto/issues
+  homepage: https://github.com/oneandoneis2/App-Goto
+  repository: https://github.com/oneandoneis2/App-Goto.git
+version: 0.01
