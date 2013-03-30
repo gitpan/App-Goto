@@ -30,9 +30,12 @@ METHODS
     Returns the command string calculated based on the passed-in args &
     config
 
-  name
-    Returns the calculated hostname from the possibly-ambiguous supplied
-    argument. Only really needed for internal use.
+  nick
+    Returns the calculated nickname from the possibly-ambiguous supplied
+    argument.
+
+  host
+    Returns the actual hostname for the supplied nickname.
 
 AUTHOR
     Dominic Humphries <dominic@oneandoneis2.com>
