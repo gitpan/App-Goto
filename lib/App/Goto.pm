@@ -2,7 +2,7 @@ package App::Goto;
 
 use strict;
 use v5.12;
-our $VERSION = '0.05';
+our $VERSION = '0.06';
 
 use Moo;
 
@@ -99,6 +99,15 @@ App::Goto - Utility for accessing remote servers via SSH
   my $goto = App::Goto->({ config => $config, args => $args });
 
   system( $goto->cmd );
+
+Via included 'g2' script, allows for shortening of commands for connecting
+to remote servers. Examples of the type of command that can be shortened
+by using g2 are:
+
+    g2 l log        => ssh 127.0.0.1 -t 'cd /var/log/ && bash'
+    g2 f top        => ssh firstserver -t 'htop'
+
+See g2's own documentation for further details.
 
 =head1 DESCRIPTION
 
